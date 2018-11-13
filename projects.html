@@ -4,9 +4,8 @@
 <head>
     <title> Projects </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="projects.css">
-    <!--<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200i" rel="stylesheet">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
@@ -27,7 +26,15 @@
         <div class="big-container">
             <h2>Projects</h2>
             <p>Below you can see a project i have been working on. This is very much work in progress and more projects will <br> 
-               added over time. I practiced with a reponsive image grid which you can see below.  
+               added over time. I practiced with a reponsive image grid which you can see below.  Click the button for more projects I practiced on <br>
+               <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">More Projects</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
             </p>
         </div>
         <!-- Big container end-->
@@ -61,7 +68,7 @@
                 <img src="img/projects/paris.jpg">
             </div>
             <div class="column">
-                <img src="img/projects/projects/underwater.jpg">
+                <img src="img/projects/underwater.jpg">
                 <img src="img/projects/ocean.jpg">
                 <img src="img/projects/wedding.jpg">
                 <img src="img/projects/mountainskies.jpg">
@@ -89,7 +96,7 @@
 
 
     </div> <!-- Big Wrapper End-->
-    <script type="text/javascript" src="navbar.js"></script>
+    <script type="text/javascript" src="/js/navbar.js"></script>
     <!-- Body End -->
 </body>
 

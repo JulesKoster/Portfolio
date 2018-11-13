@@ -5,21 +5,22 @@ html {
 
 body {
     background-color: #fcfafa;
-}
+    }
 
 /* Style the navbar */
 #navbar {
     overflow: hidden;
-    background-color:#83817f;
+    background-color:#24292E;
     text-align:center;
-}
+    }
 /* Navbar links */
 #navbar a {
     display: inline-block; /* zorgt dat items horizontaal worden */
-    color:#C06014;         /* #f2f2f2; alt color??*/
+    color: #E34C26;         /* #f2f2f2; alt color??*/
     text-align: center;
     padding: 14px; /*hoogte nav bar */
     text-decoration: none;
+    font-family: 'Roboto','sans-serif';
     }
 /* Page content */
 .content {
@@ -50,11 +51,19 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 100px;
     font-weight: 400;
     text-decoration-color: #2e3c40;
     font-family: 'Montserrat', sans-serif;
-}
+    }
+
+h3 {
+    font-size: 30px;
+    font-weight:400;
+    text-decoration-color: #2e3c40;    
+    font-family: 'Montserrat', sans-serif;
+}    
+        
 
 .sticky-container {
     padding: 0px;
@@ -132,7 +141,7 @@ form {
 }
 
 .submit:hover {
-    background-color: orangered;
+    background-color: #E34C26;
 }
 
 textarea {
