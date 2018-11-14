@@ -1,0 +1,157 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fcfafa;
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color:#83817f;
+    text-align:center;
+}
+/* Navbar links */
+#navbar a {
+    display: inline-block; /* zorgt dat items horizontaal worden */
+    color:#C06014;         /* #f2f2f2; alt color??*/
+    text-align: center;
+    padding: 14px; /*hoogte nav bar */
+    text-decoration: none;
+    }
+/* Page content */
+.content {
+    padding: 16px;
+}
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}   
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+} 
+#navbar a:hover {
+    background: #cdcdcd; /* achtergrond kleur bij hover */
+    }
+
+.bigwrapper {       
+    background-color: #fcfafa;
+    box-sizing:content-box;
+    text-decoration-color: #2e3c40;
+    font-family: 'Montserrat', sans-serif;
+    left:25%;
+    top: 50%;
+    margin-top:200px
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration-color: #2e3c40;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sticky-container {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -130px;
+    top: 230px;
+    width: 210px;
+    z-index: 1100;
+}
+
+.stickysocial li {
+    list-style-type: none;
+    background-color: #fff;
+    color: #efefef;
+    height: 43px;
+    padding: 0px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.stickysocial li:hover {
+    margin-left: -115px;
+}
+
+.stickysocial li img {
+    float: left;
+    margin: 5px 4px;
+    margin-right: 5px;
+}
+
+.stickysocial li p {
+    padding-top: 5px;
+    margin: 0px;
+    line-height: 16px;
+    font-size: 11px;
+}
+
+.stickysocial li p a {
+    text-decoration: none;
+    color: #2C3539;
+}
+
+.stickysocial li p a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    display: border-box;
+    padding: 10px;
+    margin: 10px;
+    border: 2px black;
+    text-align: right;
+}
+
+form {
+    text-align: center;
+    margin-top: 0;
+}
+
+.submit {
+    background-color: gray;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: orangered;
+}
+
+textarea {
+    height: 100px;
+    padding:25px;
+    margin:50px;       
+}
+
+input,
+textarea {
+    margin-top:15px;
+    margin-bottom: 15px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 3px;
+    width: 25%;
+    outline: none;
+    text-align: center;
+}

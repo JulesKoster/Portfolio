@@ -1,0 +1,132 @@
+/*html {
+    margin: 0;
+    padding: 0;
+    }   */
+    
+body {
+    font-family: 'Roboto','sans-serif';
+    text-align: center;   
+    background-color:#cdcdcd;
+   }
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color:#83817f;
+    text-align:center;
+}
+/* Navbar links */
+#navbar a {
+    display: inline-block; /* zorgt dat items horizontaal worden */
+    color:#C06014;         /* #f2f2f2; alt color??*/
+    text-align: center;
+    padding: 14px; /*hoogte nav bar */
+    text-decoration: none;
+    }
+/* Page content */
+.content {
+    padding: 16px;
+}
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}   
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+} 
+#navbar a:hover {
+    background: #cdcdcd; /* achtergrond kleur bij hover */
+}
+/*
+.bigwrapper{
+    max-width: auto; 
+    max-height: auto;
+    background-color: #cdcdcd;
+}
+/* Met container 1 en 2 voorlopig niets mee doen 11/7/2018, wel oefenen met 2 colums naast elkaar
+.container1 {
+    display:block;
+    float: left;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding: 100px;
+    width: 650px;
+    height: 400px;
+    background-image:url();
+    background-size:cover;
+    border:solid#C06014;
+    
+}
+
+.container2 {
+    display:block;
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding: 100px;
+    width: 650px;
+    height: 400px;
+    background-image:url(img/jumping.jpg);
+    background-size:cover;
+    border:solid#C06014;
+}
+*/
+
+.container {
+    position: absolute;
+    width:50%;
+    left: 25%;
+    border: solid 2px #C06014
+    
+    
+    }
+
+.image {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0,0.5);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: 1s ease-in-out/*hiermee kun je veranderen hoe lang de transitie duurt */
+}
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+footer {
+   background-color: #cdcdcd;
+   position: absolute;
+   bottom: -50px;
+   width: 100%;
+   height: 20px;
+    
+}
+
+
+
+
+

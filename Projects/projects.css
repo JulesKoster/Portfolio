@@ -1,0 +1,114 @@
+html {
+    margin: 0;
+    padding: 0;
+    }   
+    
+body {
+    font-family: 'Roboto','sans-serif';
+    text-align: center;       
+    background-image: url("img/code.jpg"); 
+    background-size: cover; 
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color:#83817f;
+    text-align:center;
+}
+/* Navbar links */
+#navbar a {
+    display: inline-block; /* zorgt dat items horizontaal worden */
+    color:#C06014;         /* #f2f2f2; alt color??*/
+    text-align: center;
+    padding: 14px; /*hoogte nav bar */
+    text-decoration: none;
+    }
+/* Page content */
+.content {
+    padding: 16px;
+}
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}   
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+} 
+#navbar a:hover {
+    background: #cdcdcd; /* achtergrond kleur bij hover */
+    }
+
+.bigwrapper{
+    max-width: auto; 
+    max-height: auto;
+    background-color: #cdcdcd;
+        }
+    
+  
+
+div.big-container{
+    margin: 0px;
+    padding: 0px; 
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-color:#cdcdcd;
+    height:200px;
+    width:100%;   
+    box-sizing:border-box;  
+}
+
+div.big-container>p{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    width:100%;
+    vertical-align: middle;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 25%;
+      max-width: 100%;
+    }
+  }
+  @media screen and (min-width:1000px) { /*toegvoegd voor grotere schermen/resoluties */
+    .column {
+      flex: 10%; 
+      max-width:100%; /* lager is niet schermvullend */
+     } 
+    }        
+
+  /* evt oefenen met javascript size veranderen met size veranderen door klikken van button */
+    
