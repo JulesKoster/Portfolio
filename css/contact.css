@@ -7,49 +7,47 @@ body {
     background-color: #fcfafa;
 }
 
-/* Style the navbar */
 #navbar {
     overflow: hidden;
     background-color: #fcfafa;
     text-align: center;
 }
 
-/* Navbar links */
 #navbar a {
-    display: inline-block; /* zorgt dat items horizontaal worden */
+    display: inline-block;
     color: #E34C26;
     text-align: center;
-    padding: 14px; /*hoogte nav bar */
-    font-family: 'Roboto', 'sans-serif'; 
+    padding: 14px;
+    font-family: 'Roboto', 'sans-serif';
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 3px;
-    word-spacing:40px;
+    word-spacing: 40px;
     text-decoration: none;
 }
 
-/* Page content */
+
 .content {
     padding: 16px;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
 .sticky+.content {
     padding-top: 60px;
 }
 
 #navbar a:hover {
     background: #fcfafa;
-    text-decoration:underline;
+    text-decoration: underline;
     text-decoration-color: #2C3539;
-   }
+}
 
 .bigwrapper {
     background-color: #fcfafa;
@@ -74,7 +72,6 @@ h3 {
     text-decoration-color: #2e3c40;
     font-family: 'Montserrat', 'sans-serif';
 }
-
 
 .sticky-container {
     padding: 0px;

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Form Options</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+
+<body>
+        <div class="form">
+        Form with 5 options<br>
+        <form method="POST" action= "thisaintgoingtoworkyet.php"> 
+        <input name="name" placeholder="name" type="text"><br>
+        <input name="email" placeholder="E-mail" type="text" required><br>   
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br>
+        <input type="age" name="age" placeholder="age"><br>
+        <input type="checkbox" name="beer" value="Beer"> I like beer <br>
+        <input type="checkbox" name="nobeer" value="Nobeer"> I don't like beer <br>
+        <input list="gameon" placeholder="I prefer to game on a"><br>
+        <datalist id="gameon">
+                <option value="PC Master Race">
+                <option value="PS4 Console Peasant">
+                <option value="XBOX Console Peasant">
+        </datalist>
+
+        <input type="submit" class="submit" value="Submit"><br>
+        </form>
+    </div>
+</body>
+</html>

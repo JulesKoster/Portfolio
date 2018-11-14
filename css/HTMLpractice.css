@@ -1,154 +1,137 @@
 body {
-    margin: 40px;
-    background-color:#fcfafa;
-  }
+  margin: 40px;
+  background-color: #fcfafa;
+}
 
- /* Style the navbar */
+
 #navbar {
   overflow: hidden;
   background-color: #fcfafa;
   text-align: center;
 }
 
-/* Style the navbar */
 #navbar {
   overflow: hidden;
   background-color: #fcfafa;
   text-align: center;
 }
 
-/* Navbar links */
 #navbar a {
-  display: inline-block; /* zorgt dat items horizontaal worden */
+  display: inline-block;
   color: #E34C26;
   text-align: center;
-  padding: 14px; /*hoogte nav bar */
-  font-family: 'Roboto', 'sans-serif'; 
+  padding: 14px;
+  font-family: 'Roboto', 'sans-serif';
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 3px;
-  word-spacing:40px;
+  word-spacing: 40px;
   text-decoration: none;
 }
 
-/* Page content */
 .content {
   padding: 16px;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky+.content {
   padding-top: 60px;
 }
 
 #navbar a:hover {
   background: #fcfafa;
-  text-decoration:underline;
+  text-decoration: underline;
   text-decoration-color: #2C3539;
- }
+}
 
-  
-  .wrapper {
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 300px 300px 300px;
-    grid-gap: 10px;
-    background-color:#fcfafa;
-    color: #444;
-    margin-left: 150px;
-    margin-top: 150px;
-    }
-  
-  a{
-  color:#E34C26;   
+.wrapper {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 300px 300px 300px;
+  grid-gap: 10px;
+  background-color: #fcfafa;
+  color: #444;
+  margin-left: 150px;
+  margin-top: 150px;
+}
 
-  }
+a {
+  color: #E34C26;
 
-  .box1 {
-    background-color: #2C3539;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-    grid-row:1/1;
-    grid-column:1/1
-  }
+}
 
-  .box2 {
-    background-color: #2C3539;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-    grid-column:2/2;
-    grid-row:1/1;
-    
-  }
-  .box3 {
-    background-color: #2C3539;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-    grid-column:3/3;
-    grid-row:1/1;
-  }
-  .box4 {
-    background-color: #2C3539;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-    grid-column:1/1;
-    grid-row:2/2;
-  }
-  .box5 {
-    background-color: #2C3539;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-    grid-column:2/2;
-    grid-row:2/2;
-  }
-  .box6 {
-    background-color: #2C3539;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-    grid-column:3/3;
-    grid-row:2/2;
-  }
-  .box7 {
-    background-color: #2C3539;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-    grid-column:1/1;
-    grid-row:3/3;
-  }
-  /*.box8 {
-    background-color: #444;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-    grid-column:3/3;
-    grid-row:2/2;
-  }
-  .box9 {
-    background-color: #444;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-  } /* evt later nog iets aan toevoegen
+.box1 {
+  background-color: #2C3539;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  grid-row: 1/1;
+  grid-column: 1/1
+}
+
+.box2 {
+  background-color: #2C3539;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  grid-column: 2/2;
+  grid-row: 1/1;
+}
+
+.box3 {
+  background-color: #2C3539;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  grid-column: 3/3;
+  grid-row: 1/1;
+}
+
+.box4 {
+  background-color: #2C3539;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+
+.box5 {
+  background-color: #2C3539;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+
+.box6 {
+  background-color: #2C3539;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  grid-column: 3/3;
+  grid-row: 2/2;
+}
+
+.box7 {
+  background-color: #2C3539;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  grid-column: 1/1;
+  grid-row: 3/3;
+}
+
