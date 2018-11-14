@@ -9,6 +9,13 @@ body {
   text-align: center;
 }
 
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #fcfafa;
+  text-align: center;
+}
+
 /* Navbar links */
 #navbar a {
   display: inline-block; /* zorgt dat items horizontaal worden */
@@ -45,6 +52,7 @@ body {
   text-decoration:underline;
   text-decoration-color: #2C3539;
  }
+
   
   .wrapper {
     display: grid;

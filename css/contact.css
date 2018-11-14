@@ -55,7 +55,7 @@ body {
     background-color: #fcfafa;
     box-sizing: content-box;
     text-decoration-color: #2e3c40;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'sans-serif';
     left: 25%;
     top: 50%;
     margin-top: 200px
@@ -65,14 +65,14 @@ h1 {
     font-size: 100px;
     font-weight: 400;
     text-decoration-color: #2e3c40;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'sans-serif';
 }
 
 h3 {
     font-size: 30px;
     font-weight: 400;
     text-decoration-color: #2e3c40;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'sans-serif';
 }
 
 
@@ -140,7 +140,7 @@ form {
 }
 
 .submit {
-    background-color: gray;
+    background-color: #2e3c40;
     padding: 12px 45px;
     border-radius: 5px;
     cursor: pointer;
