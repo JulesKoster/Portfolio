@@ -31,6 +31,11 @@ body {
 .content {
     padding: 16px;
 }
+.h1:hover {
+    background: #fcfafa;
+    text-decoration: underline;
+    text-decoration-color: #E34C26;
+  }
 
 .sticky {
     position: fixed;
