@@ -31,11 +31,11 @@ body {
 .content {
     padding: 16px;
 }
-.h1:hover {
-    background: #fcfafa;
-    text-decoration: underline;
-    text-decoration-color: #E34C26;
-  }
+#navbar a:hover {
+  background: #fcfafa;
+  text-decoration: underline;
+  text-decoration-color: #2C3539;
+}
 
 .sticky {
     position: fixed;
